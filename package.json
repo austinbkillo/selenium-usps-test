@@ -1,0 +1,21 @@
+{
+  "name": "vector-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=./reports,reportFilename=SeleniumReport,autoOpen=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "dependencies": {
+    "chromedriver": "^113.0.0",
+    "mocha": "^10.2.0"
+  }
+}
